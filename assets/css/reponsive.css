@@ -1,0 +1,64 @@
+/* PC */
+@media(min-width: 1024px) {}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+/* mobile */
+@media(max-width: 767px) {
+    .s-col-full {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    #header {
+        overflow: hidden;
+        /*ẩn menu khi mở giao diện điện thoại*/
+    }
+
+    #header .mobile-menu {
+        display: block;
+    }
+
+    #header .btn-search {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+
+    }
+
+    #nav li a {
+        display: block;
+        /* width: 100%; */
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #nav .subnav a:hover {
+        color: #000;
+    }
+
+    #content .band-member {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+    
+}
